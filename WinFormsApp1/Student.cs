@@ -9,6 +9,7 @@
         public double? PointAverage { get; set; }
 
         public string Address { get; set; }
+        public int Flat  { get; set; }
         public virtual AcademyGroup AcademyGroup { get; set; }
     }
 }
