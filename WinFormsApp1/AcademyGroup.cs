@@ -9,6 +9,8 @@ namespace CodeFirst
 
         public string Description { get; set; }
         public DateTime CreationDate { get; set; }
+
+        public int NumberOfStudents {  get; set; }   
         public virtual ICollection<Student> Students { get; set; }
     }
 }
